@@ -1,0 +1,8 @@
+apiVersion: pipecd.dev/v1beta1
+kind: TerraformApp
+spec:
+  name: local-docker
+  input:
+    terraformVersion: 1.8.3
+  description: |
+    This is simple app to start a docker container on local via Terraform.
